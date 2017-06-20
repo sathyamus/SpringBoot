@@ -56,3 +56,9 @@ http://localhost:8080/h2-console/login.do?jsessionid=910a9926cc30e064ad8bf201769
 JDBC Template
 	
 	
+
+	
+If you want an embedded database please put a supported one on the classpath. 
+If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+
