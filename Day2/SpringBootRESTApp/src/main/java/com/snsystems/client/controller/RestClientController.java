@@ -1,4 +1,4 @@
-package com.snsystems.controller;
+package com.snsystems.client.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,7 +42,7 @@ public class RestClientController {
 		// Send the request as GET
 		try {
 			ResponseEntity<PersonList> result = restTemplate.exchange(
-					"http://localhost:8080/AccountRestService/rest/persons", HttpMethod.GET, entity, PersonList.class);
+					"http://localhost:8080/persons", HttpMethod.GET, entity, PersonList.class);
 			// Add to model
 			model.addAttribute("persons", result.getBody().getData());
 

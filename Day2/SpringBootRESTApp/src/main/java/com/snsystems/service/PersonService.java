@@ -69,7 +69,7 @@ public class PersonService {
 			// Find suitable id
 			Long newId = 0L;
 			Boolean hasFoundSuitableId = false;
-			// A while loop to generate id based on exisitng id's in the
+			// A while loop to generate id based on existing id's in the
 			// PersonList
 			while (hasFoundSuitableId == false) {
 				for (int i = 0; i < persons.size(); i++) {
