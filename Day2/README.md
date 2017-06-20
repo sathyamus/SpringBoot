@@ -1,3 +1,5 @@
+Spring Boot with REST, JDBC Template with H2 DB
+
 JDBC Template
 
 Spring Data 
@@ -46,7 +48,7 @@ http://localhost:8080/h2-console/login.do?jsessionid=910a9926cc30e064ad8bf201769
 
 	JDBC URL: jdbc:h2:file:./Database
 	
-	![Alt text](https://github.com/sathyamus/SpringBoot/tree/master/Day2/h2-console.png "H2 Console")
+	![Alt text](https://github.com/sathyamus/SpringBoot/blob/master/Day2/h2-console.png "H2 Console")
 	
 	
 	
