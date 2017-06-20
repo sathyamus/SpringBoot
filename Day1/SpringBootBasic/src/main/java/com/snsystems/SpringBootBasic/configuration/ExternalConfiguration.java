@@ -9,7 +9,7 @@ import com.snsystems.SpringBootBasic.component.LegacyMessage;
 @Configuration
 public class ExternalConfiguration {
 	
-	@Value("${dispMessage}")
+	@Value("${displayMessage}")
 	private String displayMessage;
 	
 	@Value("${loginMessage}")
