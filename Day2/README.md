@@ -77,6 +77,11 @@ http://localhost:8080/h2-console/login.do?jsessionid=910a9926cc30e064ad8bf201769
 
 	JDBC URL: jdbc:h2:file:./Database
 	
+	![GitHub Logo](/images/logo.png)
+	
+	![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+	
+	![H2 Console](/screenshots/h2-console.png)
 	![alt text](h2-console.png)
 	![alt text](screenshots/h2-console.png)
 	![alt text](/screenshots/h2-console.png)
@@ -89,8 +94,7 @@ http://localhost:8080/h2-console/login.do?jsessionid=910a9926cc30e064ad8bf201769
 	[alt text](./screenshots/h2-console.png)
 	[alt text](../screenshots/h2-console.png)
 		
-	
-	![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 	
 JDBC Template
 	
