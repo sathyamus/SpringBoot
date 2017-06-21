@@ -1,3 +1,6 @@
+REST - Representational State Transfer
+	
+
 a) Spring Boot with REST, JDBC Template with H2 DB
 b) Spring Boot with REST Client, Provier - XML / JSON Response
 	http://localhost:8080/persons
@@ -101,3 +104,5 @@ RestClientController
 	Create as seperate project
 	
 
+http://www.vogella.com/tutorials/REST/article.html
+http://www.vogella.com/tutorials/GoogleAppEngineJava/article.html
