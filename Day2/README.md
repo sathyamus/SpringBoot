@@ -77,7 +77,7 @@ http://localhost:8080/h2-console/login.do?jsessionid=910a9926cc30e064ad8bf201769
 
 	JDBC URL: jdbc:h2:file:./Database
 	
-	![alt text](/screenshots/h2-console.png "H2 Console")
+	![alt text](screenshots/h2-console.png "H2 Console")
 	
 	
 	
