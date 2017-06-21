@@ -1,0 +1,109 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\Administrator>cd C:\Workspace\SpringBoot\Day1\SpringBootBasic\target\
+
+C:\Workspace\SpringBoot\Day1\SpringBootBasic\target>cf login -a api.run.pivotal.
+io
+API endpoint: api.run.pivotal.io
+
+Email> pgawada@gmail.com
+
+Password>
+Authenticating...
+OK
+
+Targeted org org.example
+
+Targeted space development
+
+
+
+API endpoint:   https://api.run.pivotal.io (API version: 2.84.0)
+User:           pgawada@gmail.com
+Org:            org.example
+Space:          development
+
+C:\Workspace\SpringBoot\Day1\SpringBootBasic\target>cf push SpringBootBasic.jar
+Creating app SpringBootBasic.jar in org org.example / space development as pgawa
+da@gmail.com...
+OK
+
+Creating route springbootbasicjar.cfapps.io...
+OK
+
+Binding springbootbasicjar.cfapps.io to SpringBootBasic.jar...
+OK
+
+Uploading SpringBootBasic.jar...
+Uploading app files from: C:\Workspace\SpringBoot\Day1\SpringBootBasic\target
+Uploading 24.6M, 48 files
+Done uploading
+OK
+
+Starting app SpringBootBasic.jar in org org.example / space development as pgawa
+da@gmail.com...
+
+FAILED
+Error restarting application: NoAppDetectedError
+
+TIP: Buildpacks are detected when the "cf push" is executed from within the dire
+ctory that contains the app source code.
+
+Use 'cf buildpacks' to see a list of supported buildpacks.
+
+Use 'cf logs SpringBootBasic.jar --recent' for more in depth log information.
+
+C:\Workspace\SpringBoot\Day1\SpringBootBasic\target>cf push SpringBootBasic.jar
+Updating app SpringBootBasic.jar in org org.example / space development as pgawa
+da@gmail.com...
+OK
+
+Uploading SpringBootBasic.jar...
+Uploading app files from: C:\Workspace\SpringBoot\Day1\SpringBootBasic\target
+Uploading 12.3M, 47 files
+Done uploading
+OK
+
+Starting app SpringBootBasic.jar in org org.example / space development as pgawa
+da@gmail.com...
+Downloading binary_buildpack...
+Downloading python_buildpack...
+Downloading staticfile_buildpack...
+Downloading ruby_buildpack...
+Downloading nodejs_buildpack...
+Downloaded staticfile_buildpack
+Downloading go_buildpack...
+Downloaded binary_buildpack
+Downloaded ruby_buildpack
+Downloading php_buildpack...
+Downloading dotnet_core_buildpack...
+Downloading dotnet_core_buildpack_beta...
+Downloading java_buildpack...
+Downloaded python_buildpack
+Downloaded go_buildpack
+Downloaded dotnet_core_buildpack_beta
+Downloaded dotnet_core_buildpack
+Downloaded java_buildpack
+Downloaded php_buildpack
+Downloaded nodejs_buildpack
+Creating container
+Successfully created container
+Downloading app package...
+Downloaded app package (24.5M)
+Exit status 222
+Destroying container
+None of the buildpacks detected a compatible application
+Successfully destroyed container
+
+FAILED
+Error restarting application: NoAppDetectedError
+
+TIP: Buildpacks are detected when the "cf push" is executed from within the dire
+ctory that contains the app source code.
+
+Use 'cf buildpacks' to see a list of supported buildpacks.
+
+Use 'cf logs SpringBootBasic.jar --recent' for more in depth log information.
+
+C:\Workspace\SpringBoot\Day1\SpringBootBasic\target>cf push SpringBootBasic.jar
