@@ -41,11 +41,11 @@ public class OrderRest {
 
 		Customer customer = 
 				restTemplate.getForObject(
-						"http://localhost:8081/customer?id={id}", Customer.class, idCustomer);
+						"http://localhost:8080/customer?id={id}", Customer.class, idCustomer);
 
 		Product product = 
 				restTemplate.getForObject(
-						"http://localhost:8082/product?id={id}", Product.class, idProduct);
+						"http://localhost:8081/product?id={id}", Product.class, idProduct);
 
 		order.setCustomer(customer);
 		order.setProduct(product);

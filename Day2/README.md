@@ -106,3 +106,7 @@ RestClientController
 
 http://www.vogella.com/tutorials/REST/article.html
 http://www.vogella.com/tutorials/GoogleAppEngineJava/article.html
+
+https://github.com/jersey/jersey/blob/master/core-server/src/main/java/org/glassfish/jersey/server/ResourceConfig.java
+https://github.com/spring-projects/spring-boot/blob/master/spring-boot-samples/spring-boot-sample-jersey/src/main/java/sample/jersey/JerseyConfig.java
+
