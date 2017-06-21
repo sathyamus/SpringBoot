@@ -90,6 +90,8 @@ http://localhost:8080/h2-console/login.do?jsessionid=910a9926cc30e064ad8bf201769
 	[alt text](../screenshots/h2-console.png)
 		
 	
+	![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+	
 JDBC Template
 	
 	
