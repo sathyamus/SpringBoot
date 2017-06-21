@@ -12,13 +12,7 @@ POST http://localhost:8080/person
 Accept: application/json
 Content-Type: application/json
 	
-<person>
-	<firstName>Sathya</firstName>
-	<id>5</id>
-	<lastName>P</lastName>
-	<money>20000.0</money>
-</person>
-
+Select : BODY and click on "raw"
 
 {
 	"id": 2,
@@ -26,6 +20,13 @@ Content-Type: application/json
 	"lastName": "P",
 	"money": 30000
 }
+
+<person>
+	<firstName>Sathya</firstName>
+	<id>5</id>
+	<lastName>P</lastName>
+	<money>20000.0</money>
+</person>
 
 	
 JDBC Template
@@ -76,7 +77,7 @@ http://localhost:8080/h2-console/login.do?jsessionid=910a9926cc30e064ad8bf201769
 
 	JDBC URL: jdbc:h2:file:./Database
 	
-	![Alt text](https://github.com/sathyamus/SpringBoot/blob/master/Day2/h2-console.png "H2 Console")
+	![alt text](/screenshots/h2-console.png "H2 Console")
 	
 	
 	
