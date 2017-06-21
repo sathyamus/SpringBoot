@@ -75,25 +75,10 @@ http://localhost:8080/website/vechicle/list.html
 http://localhost:8080/h2-console/login.do?jsessionid=910a9926cc30e064ad8bf201769757a4
 
 
-	JDBC URL: jdbc:h2:file:./Database
+JDBC URL: jdbc:h2:file:./Database
 	
-	![GitHub Logo](/images/logo.png)
-	
-	![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-	
-	![H2 Console](/screenshots/h2-console.png)
-	![alt text](h2-console.png)
-	![alt text](screenshots/h2-console.png)
-	![alt text](/screenshots/h2-console.png)
-	![alt text](./screenshots/h2-console.png)
-	![alt text](../screenshots/h2-console.png)
-	
-	[alt text](h2-console.png)
-	[alt text](screenshots/h2-console.png)
-	[alt text](/screenshots/h2-console.png)
-	[alt text](./screenshots/h2-console.png)
-	[alt text](../screenshots/h2-console.png)
-		
+![H2 Console](/screenshots/h2-console.png)
+
 
 	
 JDBC Template
