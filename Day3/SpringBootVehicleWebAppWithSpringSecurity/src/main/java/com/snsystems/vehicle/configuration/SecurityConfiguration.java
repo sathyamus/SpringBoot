@@ -43,9 +43,13 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 		.and()
 		.logout()
 		.logoutUrl("/logout")
-		.logoutSuccessUrl("/login.jsp")
-		.invalidateHttpSession(true);
-		//.logoutSuccessUrl("/login.jsp");
+		//.logoutSuccessUrl("/website/vehicle/list.html")
+		.invalidateHttpSession(true)
+		.logoutSuccessUrl("/login.jsp");
+		
+		
+		
+		//http.csrf().disable();
 	}
 
 }

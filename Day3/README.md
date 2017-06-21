@@ -15,6 +15,8 @@ https://karaf.apache.org/manual/latest/overview.html
 Apache ZooKeeper
 
 https://pivotal.io/
+https://login.run.pivotal.io/login
+
 pgawada
 Comp@1234
 
@@ -34,5 +36,16 @@ Building Micro services
 	http://localhost:8081/product?id=100
 	
 	http://localhost:8082/order?idCustomer=100&idProduct=100
+	
+	
+	
+Spring Security
+	http://spring.io/guides/gs/securing-web/
+	https://docs.spring.io/spring-security/site/docs/current/reference/html/jc.html
+	http://docs.spring.io/spring-security/site/migrate/current/3-to-4/html5/migrate-3-to-4-xml.html#m3to4-xmlnamespace-logout
+	
+	
+Spring Data
+	http://projects.spring.io/spring-data/
 	
 	
