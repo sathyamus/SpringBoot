@@ -46,6 +46,27 @@ public class RestProviderController {
 	}
 
 	/*
+	 * Rest service method to get Person object based on FirstName
+	 */
+	@RequestMapping(value = "/personByFirstName/{name}", method = RequestMethod.GET)
+	public @ResponseBody Person getPersonByName(@PathVariable("name") String name) {
+		// Call service here
+		return personService.findByFirstName(name);
+	}
+
+	/*
+	 * Rest service method to get Person object based on FirstName
+	 */
+	@RequestMapping(value = "/personByLastName/{name}", method = RequestMethod.GET, headers = "Accept=application/xml, application/json")
+	public @ResponseBody PersonList getPersonByLastName(@PathVariable("name") String name) {
+
+		// Call service here
+		PersonList result = new PersonList();
+		result.setData(personService.findByLastName(name));
+		return result;
+	}
+	
+	/*
 	 * Rest method to add Person object in the service class PersonList
 	 */
 	@RequestMapping(value = "/person", method = RequestMethod.POST, headers = "Accept=application/xml, application/json")
@@ -53,4 +74,14 @@ public class RestProviderController {
 		// Call service to here
 		return personService.add(person);
 	}
+
+	/*
+	 * Rest method to add Person object in the service class PersonList
+	 */
+	@RequestMapping(value = "/person", method = RequestMethod.PUT, headers = "Accept=application/xml, application/json")
+	public @ResponseBody Person updatePerson(@RequestBody Person person) {
+		// Call service to here
+		return personService.add(person);
+	}
+
 }

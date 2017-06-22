@@ -12,10 +12,10 @@ import com.snsystems.domain.Person;
 //public interface IPersonRepository<Person> extends JpaRepository<Person, Long> {
 public interface IPersonRepository extends JpaRepository<Person, Long> {
 
-	Person findByFirstName(String firstName);
+	Person findByFirstName(String name);
 
 	Person findById(Long id);
 
-	List<Person> findByLastName(String lastName, Sort sort);
+	List<Person> findByLastName(String lastName);
 	
 }

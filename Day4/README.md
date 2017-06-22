@@ -1,4 +1,10 @@
 
+External Tomcat
+
+	http://docs.spring.io/spring-boot/docs/current/reference/html/howto-traditional-deployment.html
+
+
+
 OAuth Authentication
 
 
@@ -55,5 +61,14 @@ https://www.safaribooksonline.com/search/?query=building%20microservices%20oauth
 
 
 
+
+Spring Boot + JPA + REST + Testing
+
+	https://spring.io/blog/2011/04/26/advanced-spring-data-jpa-specifications-and-querydsl/
+
+
+	http://docs.spring.io/autorepo/docs/spring-data-jpa/1.7.x/api/org/springframework/data/jpa/repository/JpaRepository.html
+	
+	
 
 
