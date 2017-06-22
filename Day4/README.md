@@ -120,3 +120,8 @@ Spring Boot Testing
 	https://dzone.com/articles/junit-testing-rest-services
 	
 	
+
+	Testing REST services
+		REST Assured framework
+		MockMvc
+		
