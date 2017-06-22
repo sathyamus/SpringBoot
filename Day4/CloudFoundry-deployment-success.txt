@@ -1,0 +1,140 @@
+
+C:\Workspace\SpringBoot\Day3\SpringBootVehicleWebAppWithSpringSecurity>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 6E99-6BD5
+
+ Directory of C:\Workspace\SpringBoot\Day3\SpringBootVehicleWebAppWithSpringSecu
+rity
+
+06/22/2017  10:59 AM    <DIR>          .
+06/22/2017  10:59 AM    <DIR>          ..
+06/20/2017  03:54 PM             8,071 .classpath
+06/19/2017  05:03 PM               249 .gitignore
+06/21/2017  03:10 PM    <DIR>          .mvn
+06/21/2017  03:13 PM             1,142 .project
+06/21/2017  03:10 PM    <DIR>          .settings
+06/22/2017  09:45 AM           155,648 Database.mv.db
+06/20/2017  01:13 PM           772,105 Database.trace.db
+06/19/2017  05:03 PM             6,468 mvnw
+06/19/2017  05:03 PM             4,994 mvnw.cmd
+06/21/2017  03:13 PM             2,291 pom.xml
+06/21/2017  03:10 PM    <DIR>          src
+06/22/2017  11:24 AM    <DIR>          target
+               8 File(s)        950,968 bytes
+               6 Dir(s)  461,272,338,432 bytes free
+
+C:\Workspace\SpringBoot\Day3\SpringBootVehicleWebAppWithSpringSecurity>cf push -
+p target/SpringBootVehicleWebAppWithSpringSecurity-0.0.1-SNAPSHOT.jar springsecu
+
+Creating app springsecu in org org.example / space development as pgawada@gmail.
+com...
+OK
+
+Creating route springsecu.cfapps.io...
+OK
+
+Binding springsecu.cfapps.io to springsecu...
+OK
+
+Uploading springsecu...
+Uploading app files from: C:\Users\ADMINI~1\AppData\Local\Temp\unzipped-app94465
+3511
+Uploading 366.1K, 106 files
+Done uploading
+OK
+
+Starting app springsecu in org org.example / space development as pgawada@gmail.
+com...
+Downloading staticfile_buildpack...
+Downloading binary_buildpack...
+Downloading dotnet_core_buildpack...
+Downloading nodejs_buildpack...
+Downloading java_buildpack...
+Downloaded nodejs_buildpack
+Downloading ruby_buildpack...
+Downloaded staticfile_buildpack
+Downloading dotnet_core_buildpack_beta...
+Downloaded java_buildpack
+Downloading go_buildpack...
+Downloaded dotnet_core_buildpack
+Downloading python_buildpack...
+Downloading php_buildpack...
+Downloaded go_buildpack
+Downloaded dotnet_core_buildpack_beta
+Downloaded ruby_buildpack
+Downloaded python_buildpack
+Downloaded php_buildpack
+Downloaded binary_buildpack
+Creating container
+Successfully created container
+Downloading app package...
+Downloaded app package (19M)
+-----> Java Buildpack Version: v3.15 (offline) | https://github.com/cloudfoundry
+/java-buildpack.git#a3a9e61
+-----> Downloading Open Jdk JRE 1.8.0_121 from https://java-buildpack.cloudfound
+ry.org/openjdk/trusty/x86_64/openjdk-1.8.0_121.tar.gz (found in cache)
+       Expanding Open Jdk JRE to .java-buildpack/open_jdk_jre (1.1s)
+-----> Downloading Open JDK Like Memory Calculator 2.0.2_RELEASE from https://ja
+va-buildpack.cloudfoundry.org/memory-calculator/trusty/x86_64/memory-calculator-
+2.0.2_RELEASE.tar.gz (found in cache)
+       Memory Settings: -Xms681574K -XX:MetaspaceSize=104857K -Xss349K -Xmx68157
+4K -XX:MaxMetaspaceSize=104857K
+-----> Downloading Container Certificate Trust Store 2.0.0_RELEASE from https://
+java-buildpack.cloudfoundry.org/container-certificate-trust-store/container-cert
+ificate-trust-store-2.0.0_RELEASE.jar (found in cache)
+       Adding certificates to .java-buildpack/container_certificate_trust_store/
+truststore.jks (0.5s)
+-----> Downloading Spring Auto Reconfiguration 1.10.0_RELEASE from https://java-
+buildpack.cloudfoundry.org/auto-reconfiguration/auto-reconfiguration-1.10.0_RELE
+ASE.jar (found in cache)
+Exit status 0
+Uploading droplet, build artifacts cache...
+Uploading build artifacts cache...
+Uploading droplet...
+Uploaded build artifacts cache (108B)
+Uploaded droplet (64.4M)
+Uploading complete
+Destroying container
+Successfully destroyed container
+
+0 of 1 instances running, 1 starting
+1 of 1 instances running
+
+App started
+
+
+OK
+
+App springsecu was started using this command `CALCULATED_MEMORY=$($PWD/.java-bu
+ildpack/open_jdk_jre/bin/java-buildpack-memory-calculator-2.0.2_RELEASE -memoryS
+izes=metaspace:64m..,stack:228k.. -memoryWeights=heap:65,metaspace:10,native:15,
+stack:10 -memoryInitials=heap:100%,metaspace:100% -stackThreads=300 -totMemory=$
+MEMORY_LIMIT) && JAVA_OPTS="-Djava.io.tmpdir=$TMPDIR -XX:OnOutOfMemoryError=$PWD
+/.java-buildpack/open_jdk_jre/bin/killjava.sh $CALCULATED_MEMORY -Djavax.net.ssl
+.trustStore=$PWD/.java-buildpack/container_certificate_trust_store/truststore.jk
+s -Djavax.net.ssl.trustStorePassword=java-buildpack-trust-store-password" && SER
+VER_PORT=$PORT eval exec $PWD/.java-buildpack/open_jdk_jre/bin/java $JAVA_OPTS -
+cp $PWD/. org.springframework.boot.loader.JarLauncher`
+
+Showing health and status for app springsecu in org org.example / space developm
+ent as pgawada...
+OK
+
+requested state: started
+instances: 1/1
+usage: 1G x 1 instances
+urls: springsecu.cfapps.io
+last uploaded: Thu Jun 22 08:20:13 UTC 2017
+stack: cflinuxfs2
+buildpack: container-certificate-trust-store=2.0.0_RELEASE java-buildpack=v3.15-
+offline-https://github.com/cloudfoundry/java-buildpack.git#a3a9e61 java-main ope
+n-jdk-like-jre=1.8.0_121 open-jdk-like-memory-calculator=2.0.2_RELEASE spring-au
+to-reconfiguration=1.10...
+
+     state     since                    cpu      memory         disk           d
+etails
+#0   running   2017-06-22 01:51:00 PM   178.7%   422.1M of 1G   144.6M of 1G
+
+C:\Workspace\SpringBoot\Day3\SpringBootVehicleWebAppWithSpringSecurity>
+C:\Workspace\SpringBoot\Day3\SpringBootVehicleWebAppWithSpringSecurity>
+C:\Workspace\SpringBoot\Day3\SpringBootVehicleWebAppWithSpringSecurity>

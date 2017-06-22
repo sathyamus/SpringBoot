@@ -6,11 +6,14 @@ OAuth Authentication
 Pusing applications to cloud-foundry
 
 https://spring.io/guides/gs/sts-cloud-foundry-deployment/
+http://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html#buildpack
 
 
 http://docs.pivotal.io/pivotalcf/1-8/buildpacks/java/gsg-spring.html
 
 
+http://projects.spring.io/spring-security-oauth/docs/oauth2.html
+https://spring.io/guides/tutorials/spring-boot-oauth2/
 
 
 
@@ -42,5 +45,15 @@ Implementation of Docker
 
 
 Implementation of Ribin API
+
+
+
+https://www.safaribooksonline.com/search/?query=building+microservices
+
+
+https://www.safaribooksonline.com/search/?query=building%20microservices%20oauth&extended_publisher_data=true&highlight=true&is_academic_institution_account=false&source=user&include_assessments=false&include_case_studies=true&include_courses=true&include_orioles=true&include_playlists=true&sort=relevance
+
+
+
 
 

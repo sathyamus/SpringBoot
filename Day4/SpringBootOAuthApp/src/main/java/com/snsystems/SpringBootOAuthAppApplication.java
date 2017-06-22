@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAuthorizationServer // added
 @EnableResourceServer
 @RestController
+
+
+// enable global method security
 public class SpringBootOAuthAppApplication {
 
 	
