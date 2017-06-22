@@ -15,6 +15,9 @@ https://spring.io/guides/gs/sts-cloud-foundry-deployment/
 http://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html#buildpack
 
 
+https://docs.spring.io/spring-boot/docs/current/reference/html/cloud-deployment.html
+
+
 http://docs.pivotal.io/pivotalcf/1-8/buildpacks/java/gsg-spring.html
 
 
@@ -69,6 +72,8 @@ Spring Boot + JPA + REST + Testing
 
 
 	http://docs.spring.io/autorepo/docs/spring-data-jpa/1.7.x/api/org/springframework/data/jpa/repository/JpaRepository.html
+	
+	http://www.baeldung.com/building-a-restful-web-service-with-spring-and-java-based-configuration
 	
 	
 
