@@ -50,16 +50,21 @@ public class SpringBootOAuthClientApplication {
 	
 	@RequestMapping("/execute")
 	public String execute(Principal principal) throws URISyntaxException {
-		 User user = (User) ((Authentication) principal).getPrincipal();
 		
-		System.out.println("username" + user.getUsername());
-		System.out.println("password" + user.getPassword());
+//		User user = (User) ((Authentication) principal).getPrincipal();
+		// not working with above line, hard code the values then its working
+		
+//		System.out.println("username" + user.getUsername());
+//		System.out.println("password" + user.getPassword());
 		
 		URI uri = new URI("http://localhost:9090/resource/endpoint");
 		RequestEntity<String> request = new RequestEntity<String>(HttpMethod.POST, uri);
 		AccessTokenRequest accessTokenRequest = this.restTemplate.getOAuth2ClientContext().getAccessTokenRequest();
 		accessTokenRequest.set("username", "user1");
 		accessTokenRequest.set("password", "password1");
+		
+//		accessTokenRequest.set("username", user.getUsername());
+//		accessTokenRequest.set("password", user.getPassword());
 		
 		return this.restTemplate.exchange(request, String.class).getBody();
 		
