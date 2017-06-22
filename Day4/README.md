@@ -37,12 +37,13 @@ Add Basic Authorization
     "expires_in": 43199,
     "scope": "read,write,trust"
 }
-
 	
 
 http://localhost:9090/resource/endpoint
 	this resource is protected by the resource server
 
+
+http://localhost:9091/execute
 
 	
 ==========
@@ -71,4 +72,31 @@ Spring Boot + JPA + REST + Testing
 	
 	
 
+	http://localhost:8080/persons
+	
+	http://localhost:8080/personByFirstName/Sathya
+	
+	http://localhost:8080/personByLastName/P
+	
+	
+	CREATE : http://localhost:8080/person
+	
+	POST
+	{
+            "id": 6,
+            "firstName": "SN",
+            "lastName": "P",
+            "money": 30000
+	}
+		
+	UPDATE : http://localhost:8080/person
+	
+	PUT
+	{
+            "id": 6,
+            "firstName": "SN123455",
+            "lastName": "P",
+            "money": 30000
+	}
+	
 
