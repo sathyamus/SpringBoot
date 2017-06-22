@@ -1,4 +1,10 @@
 
+
+C:\Workspace\SpringBoot\Day3\SpringBootVehicleWebAppWithSpringSecurity>cf push -p target/SpringBootVehicleWebAppWithSpringSecurity-0.0.1-SNAPSHOT.jar springsecu
+
+
+
+
 External Tomcat
 
 	http://docs.spring.io/spring-boot/docs/current/reference/html/howto-traditional-deployment.html
@@ -105,3 +111,10 @@ Spring Boot + JPA + REST + Testing
 	}
 	
 
+	
+Spring Boot Testing
+
+	http://www.springboottutorial.com/unit-testing-for-spring-boot-rest-services
+	
+	
+	
