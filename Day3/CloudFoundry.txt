@@ -7,7 +7,7 @@ C:\Workspace\SpringBoot\Day1\SpringBootBasic\target>cf login -a api.run.pivotal.
 io
 API endpoint: api.run.pivotal.io
 
-Email> pgawada@gmail.com
+Email> pgawada
 
 Password>
 Authenticating...
@@ -20,13 +20,12 @@ Targeted space development
 
 
 API endpoint:   https://api.run.pivotal.io (API version: 2.84.0)
-User:           pgawada@gmail.com
+User:           pgawada
 Org:            org.example
 Space:          development
 
 C:\Workspace\SpringBoot\Day1\SpringBootBasic\target>cf push SpringBootBasic.jar
-Creating app SpringBootBasic.jar in org org.example / space development as pgawa
-da@gmail.com...
+Creating app SpringBootBasic.jar in org org.example / space development as pgawada...
 OK
 
 Creating route springbootbasicjar.cfapps.io...
@@ -41,8 +40,7 @@ Uploading 24.6M, 48 files
 Done uploading
 OK
 
-Starting app SpringBootBasic.jar in org org.example / space development as pgawa
-da@gmail.com...
+Starting app SpringBootBasic.jar in org org.example / space development as pgawada...
 
 FAILED
 Error restarting application: NoAppDetectedError
@@ -55,8 +53,7 @@ Use 'cf buildpacks' to see a list of supported buildpacks.
 Use 'cf logs SpringBootBasic.jar --recent' for more in depth log information.
 
 C:\Workspace\SpringBoot\Day1\SpringBootBasic\target>cf push SpringBootBasic.jar
-Updating app SpringBootBasic.jar in org org.example / space development as pgawa
-da@gmail.com...
+Updating app SpringBootBasic.jar in org org.example / space development as pgawada...
 OK
 
 Uploading SpringBootBasic.jar...
@@ -65,8 +62,7 @@ Uploading 12.3M, 47 files
 Done uploading
 OK
 
-Starting app SpringBootBasic.jar in org org.example / space development as pgawa
-da@gmail.com...
+Starting app SpringBootBasic.jar in org org.example / space development as pgawada...
 Downloading binary_buildpack...
 Downloading python_buildpack...
 Downloading staticfile_buildpack...
