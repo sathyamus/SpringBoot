@@ -3,8 +3,7 @@ Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
 
 C:\Users\Administrator>cd C:\Workspace\SpringBoot\Day1\SpringBootBasic\target\
 
-C:\Workspace\SpringBoot\Day1\SpringBootBasic\target>cf login -a api.run.pivotal.
-io
+C:\Workspace\SpringBoot\Day1\SpringBootBasic\target>cf login -a api.run.pivotal.io
 API endpoint: api.run.pivotal.io
 
 Email> pgawada
